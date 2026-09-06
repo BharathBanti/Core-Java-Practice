@@ -9,7 +9,11 @@ public class ConstructorsMain {
 //        Student s2 = new Student();
 //        s2.displayDetails();
 
-        Student s3 = new Student("Srinidhi", 44);
-        s3.displayDetails();
+//        Student s3 = new Student("Srinidhi", 44);
+//        s3.displayDetails();
+
+        Student s = new Student();
+        s.Student();
+
     }
 }
