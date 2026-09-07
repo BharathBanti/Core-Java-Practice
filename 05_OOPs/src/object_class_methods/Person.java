@@ -2,14 +2,10 @@ package object_class_methods;
 
 import java.util.Objects;
 
-public class Person {
+class Person {
     String name;
     int age;
 
-    Person(String name, int age){
-        this.name = name;
-        this.age = age;
-    }
 
     @Override
     public String toString(){
