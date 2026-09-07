@@ -26,7 +26,8 @@ public class Student {
         System.out.println(s1.schoolName);
         System.out.println(s2.schoolName);
         System.out.println(s3.schoolName);
-        Student.changeSchool("Govt");
+//        s1.changeSchool("Govt");
+        Student.changeSchool("Govt"); // both works
         System.out.println(s1.schoolName);
         System.out.println(s2.schoolName);
         System.out.println(s3.schoolName);

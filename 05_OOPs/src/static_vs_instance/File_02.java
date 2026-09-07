@@ -30,7 +30,7 @@ public class File_02 {
     }
 
     public static void good(){
-        System.out.println("From the static block");
+        System.out.println("From the static method");
     }
 
     public static void main(String[] args){
