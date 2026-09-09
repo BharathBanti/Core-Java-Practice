@@ -1,5 +1,8 @@
 package final_keyword;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main extends Final{
 
     // 1. We can extend the main directly, if there is no
@@ -13,6 +16,11 @@ public class Main extends Final{
 
     public static void main(String[] args){
         System.out.println("hello, from main class");
+
+        final List<Integer> list = new ArrayList<>();
+        list.add(23);
+        list.add(53);
+//        list = new ArrayList<>(); // cannot reassign to final variable
     }
 
 //    @Override
