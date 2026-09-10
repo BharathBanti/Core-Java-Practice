@@ -1,0 +1,11 @@
+package Complete_OOPS_Example;
+
+public abstract class Shape {
+    float area;
+    abstract void acceptInput();
+    abstract void calculateArea();
+
+    void displayArea(){
+        System.out.println(area);
+    }
+}
